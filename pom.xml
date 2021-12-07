@@ -92,18 +92,19 @@
 		</dependency>
 		
 	</dependencies>
-	
+
+       	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-release/</url>
+	      <url>http://52.206.201.89:8081/repository/wellfargo-bts-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-snapshot/</url>
+	      <url>http://52.206.201.89:8081/repository/wellfargo-bts-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
