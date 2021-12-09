@@ -109,7 +109,7 @@
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://52.206.201.89:8081/repository/td-web-app-snapshots/</url>
-	    </repository>
+	     </snapshotRepository>
 		
 		
 		
