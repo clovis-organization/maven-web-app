@@ -106,14 +106,14 @@
 		<repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.206.201.89:8081/repository/td-web-app-releases/</url>
+	      <url>http://44.202.6.75:8081/repository/td-web-app-releases/s/</url>
 	    </repository>    		
 
 		
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.206.201.89:8081/repository/td-web-app-snapshots/</url>
+	      <url>http://44.202.6.75:8081/repository/td-web-app-snapshots/</url>
 	     </snapshotRepository>	
 		
 	</distributionManagement>
