@@ -1,0 +1,25 @@
+//node('master')
+node
+{
+def mavenHome = tool name: 'maven3.8.2'
+ stage('1-gitclone')
+  {
+git 'https://github.com/clovis-organization/maven-web-app' 
+}
+  stage('2-mavenBuild')
+  { 
+    sh "${mavenHome}/bin/mvn clean package"
+  }
+  stage('3-CodeQualityReport')
+  {
+  sh "${mavenHome}/bin/mvn sonar:sonar"
+  }
+stage('4-uploadartifact')
+{
+sh "${mavenHome}/bin/mvn deploy"
+}
+stage('5-uploadTOMCAT')
+{
+ deploy adapters: [tomcat9(credentialsId: 'tomcatcredentials', path: '', url: 'http://54.160.215.214:7000/')], contextPath: null, war: 'target/*war'
+}
+}
