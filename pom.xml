@@ -109,11 +109,14 @@
 	      <url>http://44.202.6.75:8081/repository/td-web-app-releases/s/</url>
 	    </repository>    		
 
+	  
+		
+		
 		
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://184.73.50.230:4000/repository/ebay-CI-job/-web-app-snapshots/</url>
+	      <url>http://34.204.8.33:4000/repository/ebay-job/</url>
 	     </snapshotRepository>	
 		
 	</distributionManagement>
