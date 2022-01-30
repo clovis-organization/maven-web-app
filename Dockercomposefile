@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+app:
+image:ubuntu/maven-web-app
+restart:always
+environment:
+ports:8080:8080
+network:wellfargo
