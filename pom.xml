@@ -103,16 +103,11 @@
 	
 	
 	<distributionManagement>
-	  
-		<repository>
+	  <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://54.153.64.213:8081/repository/ebay-p-release/</url>
 	    </repository>    		
-
-	  
-		
-		
 		
 	    <snapshotRepository>
 	      <id>nexus</id>
