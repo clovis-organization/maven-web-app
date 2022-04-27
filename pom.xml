@@ -107,7 +107,7 @@
 		<repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.202.6.75:8081/repository/td-web-app-releases/s/</url>
+	      <url>http://54.153.64.213:8081/repository/ebay-p-release/</url>
 	    </repository>    		
 
 	  
@@ -117,7 +117,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.204.8.33:4000/repository/ebay-job/</url>
+	      <url>http://54.153.64.213:8081/repository/ebay-p-snapshot/</url>
 	     </snapshotRepository>	
 		
 	</distributionManagement>
