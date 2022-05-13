@@ -44,7 +44,7 @@
 			<artifactId>json</artifactId>
 			<version>20160212</version>
 		</dependency>
-		
+		</plugins>
 		<!-- test dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
